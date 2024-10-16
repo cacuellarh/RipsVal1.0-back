@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rips.Backend", "Rips.Backend\Rips.Backend.csproj", "{DB1A8158-D278-489C-8DD6-14492B479AB8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestValidator", "TestValidator\TestValidator.csproj", "{254ABEC6-F24C-4F0A-A885-28D65C8FCDF9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB1A8158-D278-489C-8DD6-14492B479AB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB1A8158-D278-489C-8DD6-14492B479AB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB1A8158-D278-489C-8DD6-14492B479AB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB1A8158-D278-489C-8DD6-14492B479AB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{254ABEC6-F24C-4F0A-A885-28D65C8FCDF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{254ABEC6-F24C-4F0A-A885-28D65C8FCDF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{254ABEC6-F24C-4F0A-A885-28D65C8FCDF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{254ABEC6-F24C-4F0A-A885-28D65C8FCDF9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05DB98BC-A563-43E4-B088-1FE0CA9ABCA8}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,33 @@
+﻿<Page x:Class="Presentation.RipsValidator.Views.USView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Presentation.RipsValidator.Views"
+      xmlns:viewModel="clr-namespace:Presentation.RipsValidator.ViewModel"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="1000"
+      Title="USView">
+
+    
+    <Grid Background="White">
+        <TextBlock Text="{Binding FilePath}" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+        <DataGrid
+            ItemsSource="{Binding ValidationMessages}"
+            AutoGenerateColumns="False" 
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            Margin="10" 
+            Background="#FFFFFCFC"
+            RowBackground="White" 
+            AlternatingRowBackground="#BFD8FD"
+            GridLinesVisibility="None"
+            BorderThickness="0"
+            ColumnHeaderStyle="{StaticResource CustomDataGridColumnHeaderStyle}"
+            >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Mensaje de validacion" Binding="{Binding}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Page>
